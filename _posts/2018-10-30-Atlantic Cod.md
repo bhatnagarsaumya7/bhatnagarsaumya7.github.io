@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How the mean depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
+title: Statistical analyis for catching of Atlantic cod
 ---
 
-OBJECTIVE- The question I&#39;m trying to answer here is: How the mean –depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
+OBJECTIVE- The question I&#39;m trying to answer here is: How the mean–depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
 
 DATA- The data consists of the information of 4863 tows 4863 tows in the Gulf of Main and Georges Bank region during fall, 1970-2008, collected by the Northeast Fisheries Sciences Center (NEFSC).
 
