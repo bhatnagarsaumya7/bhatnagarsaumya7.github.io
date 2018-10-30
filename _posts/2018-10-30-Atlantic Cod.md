@@ -1,9 +1,7 @@
-
 ---
 layout: post
-title: How the mean –depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
+title: How the mean depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
 ---
-
 
 **Saumya Bhatnagar**
 
