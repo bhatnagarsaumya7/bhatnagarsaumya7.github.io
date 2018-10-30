@@ -1,3 +1,9 @@
+---
+layout: post
+title: Studied effect of different quantitative variables on the sound pressure levels (SPLs) of NACA 0012 airfoils studied using a multivariate regression approach
+---
+
+
 Introduction
 ============
 
@@ -275,45 +281,45 @@ Appendix
 Figures
 -------
 
-![](media/faf1969e8c7e2febf6f90f78e7697f25.jpg)
+![](/images/faf1969e8c7e2febf6f90f78e7697f25.jpg)
 
 >   Figure 1: Basic features of an airfoil
 
-![](media/ff14ba42f9bafcd7fe0eaa9d6fb6d97a.jpg)
+![](/images/ff14ba42f9bafcd7fe0eaa9d6fb6d97a.jpg)
 
 >   Figure 2: Detailed view of an airfoil with nomenclature
 
-![](media/38979be541b845f6ae103660b5f04f83.jpg)
+![](/images/38979be541b845f6ae103660b5f04f83.jpg)
 
 >   Figure 3: Scatter plot matrix
 
-![](media/dca6a1328eaad224bd42f0482c8ec4c2.jpg)
+![](/images/dca6a1328eaad224bd42f0482c8ec4c2.jpg)
 
 >   Figure 4: Histogram of SPL
 
-![](media/303100caaaf5b1fa31dcc5e24d05fdaa.jpg)
+![](/images/303100caaaf5b1fa31dcc5e24d05fdaa.jpg)
 
 >   Figure 5: qq plot of the SPL with respect to the normal quantiles
 
-![](media/9b156c6888e3ffc5c300e4cdeca76717.jpg)
+![](/images/9b156c6888e3ffc5c300e4cdeca76717.jpg)
 
 >   Figure 6: Residuals vs. explanatory variables and predicted variable
 
-![](media/956ad5fcffe371987c2eff0987b19641.jpg)
+![](/images/956ad5fcffe371987c2eff0987b19641.jpg)
 
 >   Figure 7: a) Deleted studentized residuals vs. predicted variable; b)
 >   deleted studentized residuals vs. leverage
 
-![](media/3a88f8cfa1ac48041171fdf724368dbf.jpg)
+![](/images/3a88f8cfa1ac48041171fdf724368dbf.jpg)
 
 >   Figure 8: a) DFFITS plotted against the observation number
 
-![](media/4f2500fd899066d4a35b02ffb1a00ccc.jpg)
+![](/images/4f2500fd899066d4a35b02ffb1a00ccc.jpg)
 
 >   Figure 9: a) DFBETAS plotted against the observation number for each
 >   regression coefficient
 
-![](media/69642be910e350bad5d0971486e20e77.jpg)
+![](/images/69642be910e350bad5d0971486e20e77.jpg)
 
 >   Figure 10: Comparison of residuals vs. explanatory variables before and
 >   after remedial measure
@@ -323,27 +329,27 @@ Tables
 
 >   Table 1: Table showing the Mallow’s Cp values
 
-![](media/6a049f7e316c166d4060a18e7407ba80.jpg)
+![](/images/6a049f7e316c166d4060a18e7407ba80.jpg)
 
 >   Table 2: Illustration of stepwise selection procedure
 
-![](media/93d5c9026e42271e88cd6669fd701124.jpg)
+![](/images/93d5c9026e42271e88cd6669fd701124.jpg)
 
 >   Table 3: ANOVA table for the multivariate regression
 
-![](media/84bc9cd2979940f48b499266e5d04811.jpg)
+![](/images/84bc9cd2979940f48b499266e5d04811.jpg)
 
 >   Table 4: Pearson’s correlation coefficients to assess multi-collinearity
 
-![](media/170cb8c07330d3f30f2faabd51daa18b.jpg)
+![](/images/170cb8c07330d3f30f2faabd51daa18b.jpg)
 
 >   Table 5: Variance Inflation Factor analysis
 
-![](media/017901edd1e23abbfd4b8c2ea28d7f77.jpg)
+![](/images/017901edd1e23abbfd4b8c2ea28d7f77.jpg)
 
 Code used for the project
 -------------------------
-
+```
 data airfoil ;
 
 infile "/home/bhatnasa0/sasuser.v94/Airfoil_data1.csv" firstobs =2 dlm= " , " ;
@@ -442,3 +448,4 @@ model sound_press=f r eq angl e \_of \_ a t t a ck chord_length f r e e \_ v e l
 suc_disp ;
 
 weight f r eq angl e \_of \_ a t t a ck chord_length f r e e \_ v e l suc_disp ;
+```
