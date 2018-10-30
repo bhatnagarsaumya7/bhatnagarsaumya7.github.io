@@ -1,3 +1,8 @@
+---
+layout: post
+title: MULTIVARIATE ANALYSIS
+---
+
 **MULTIVARIATE ANALYSIS**
 
 **SAUMYA BHATNAGAR**
