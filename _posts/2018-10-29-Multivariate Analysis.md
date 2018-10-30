@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MULTIVARIATE ANALYSIS
+excerpt: The data I’m studying here is biting fly data
 ---
 
 Objective- The data I’m studying here is biting fly data. There are 70 observations on two
