@@ -163,48 +163,48 @@ the presence of outliers.
 
 **Table for randomization-**
 
-![](media/16b039772554dd4f96a47b9003d88e9f.jpg)
+![](/images/16b039772554dd4f96a47b9003d88e9f.jpg)
 
-![](media/5d0faff2117870a013a18ee4fcc69fa1.jpg)
+![](/images/5d0faff2117870a013a18ee4fcc69fa1.jpg)
 
-![](media/bed4f664f10074e13d3a8f8b7ca151b0.jpg)
+![](/images/bed4f664f10074e13d3a8f8b7ca151b0.jpg)
 
-![](media/381165ce99704835a7d0847144446fa6.jpg)
+![](/images/381165ce99704835a7d0847144446fa6.jpg)
 
 >   **FIGURES-**
 
-![](media/552b7e74e7d8ebfdd0766c4035318438.jpg)
+![](/images/552b7e74e7d8ebfdd0766c4035318438.jpg)
 
-![](media/31ecb5b70e8b4a6b02118ac441512ef9.jpg)
+![](/images/31ecb5b70e8b4a6b02118ac441512ef9.jpg)
 
 **Figure-1**
 
-![](media/080099b8920babe8c6c35455ff70d1dc.jpg)
+![](/images/080099b8920babe8c6c35455ff70d1dc.jpg)
 
 >   **Figure-2**
 
-![](media/53da153992ca132df48eb8f130a19d2e.jpg)
+![](/images/53da153992ca132df48eb8f130a19d2e.jpg)
 
 >   **Figure-3**
 
-![](media/d15220c58a40709b8b249102e04eb3ee.jpg)
+![](/images/d15220c58a40709b8b249102e04eb3ee.jpg)
 
 **Figure-4**
 
-![](media/01c9488b0f0c42b66797fc8b43c72322.jpg)
+![](/images/01c9488b0f0c42b66797fc8b43c72322.jpg)
 
 **Figure-5**
 
-![](media/a18fe45184d759adfa16d86be2d06e27.jpg)
+![](/images/a18fe45184d759adfa16d86be2d06e27.jpg)
 
 **Figure-6**
 
-![](media/87e568ad07bb3e084e42e5c50245d822.jpg)
+![](/images/87e568ad07bb3e084e42e5c50245d822.jpg)
 
 **Figure-7**
 
 **SAS- Code**
-
+```
 data project;
 
 input wing_width wing_length resp\@\@;
@@ -416,3 +416,4 @@ FACTORS unit=16;
 RUN;
 
 PROC PRINT; RUN; QUIT;
+```
