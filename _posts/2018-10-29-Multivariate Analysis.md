@@ -189,18 +189,18 @@ Fig-8
 
 ![](/images/24fda17f3e4d52032a251dd78f881414.jpg)
 
->   Fig-15
+   Fig-15
 
->   d) What seems to be the characteristics of the species with respect to the
->   variables/factors??
+   d) What seems to be the characteristics of the species with respect to the
+   variables/factors??
 
->   The characteristics of species with respect to variables are given by seven
->   variables as wing length(X1), wing width(X2), third palp length(X3), third
->   palp width(X4), fourth palp length (X5), length at antennal segment 12
->   (X6)and length at antennal segment 13.(X7). But after factor analysis, now
->   we have two main factor, factor-1(X1, X2, X3, X4, X5) with wing and palp
->   dimensions and factor-2 (X6, X7) with length of antennal segments. The
->   summary of factors for different species is given as
+   The characteristics of species with respect to variables are given by seven
+   variables as wing length(X1), wing width(X2), third palp length(X3), third
+   palp width(X4), fourth palp length (X5), length at antennal segment 12
+   (X6)and length at antennal segment 13.(X7). But after factor analysis, now
+   we have two main factor, factor-1(X1, X2, X3, X4, X5) with wing and palp
+   dimensions and factor-2 (X6, X7) with length of antennal segments. The
+   summary of factors for different species is given as
 
 ![](/images/a70bbb5782cd6fe470c0eba8b8bf16b2.jpg)
 
@@ -212,379 +212,379 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 
 ![](/images/00a58b6a710e176c68671408e8224550.jpg)
 
->   Factor-1 species (“1”) Factor-2 species (“1”)
+   Factor-1 species (“1”) Factor-2 species (“1”)
 
->   The mean and variance for factor-1 is low for species(“0”) as compared to
->   species(“1”) and mean for factor-2 is lower fore species(“1”) as compared to
->   species(“0”).
+   The mean and variance for factor-1 is low for species(“0”) as compared to
+   species(“1”) and mean for factor-2 is lower fore species(“1”) as compared to
+   species(“0”).
 
->   e) Perform a discriminant analysis
+   e) Perform a discriminant analysis
 
->   The goal of discriminant analysis is to distinguish between different
->   features of observations from different populations. The discriminant
->   analysis starts with the assumption of equal variance between different
->   populations. And there are different ways to do discriminant analysis when
->   variances of populations are same or not.
+   The goal of discriminant analysis is to distinguish between different
+   features of observations from different populations. The discriminant
+   analysis starts with the assumption of equal variance between different
+   populations. And there are different ways to do discriminant analysis when
+   variances of populations are same or not.
 
->   Fig-16 shows the summary of data by showing total number of variables and
->   class variables. The prior probabilities are assume to 0.5 each for both
->   species.
+   Fig-16 shows the summary of data by showing total number of variables and
+   class variables. The prior probabilities are assume to 0.5 each for both
+   species.
 
 ![](/images/c800ef3ca71ff26e5106c7df8529c151.jpg)
 
->   Fig- 16.
+   Fig- 16.
 
 ![](/images/eb88bdcbb97b5ab9b526005b6032c0f1.jpg)
 
->   Fig-17
+   Fig-17
 
->   Fig-17 shows the test for equal variance. The null hypothesis tested here
->   that variance between populations is same. Since p-value\<0.05, at
->   significance level of 0.05, null hypothesis of equal variances is rejected
->   and quadratic classification rule is used as shown in fig-18.
+   Fig-17 shows the test for equal variance. The null hypothesis tested here
+   that variance between populations is same. Since p-value\<0.05, at
+   significance level of 0.05, null hypothesis of equal variances is rejected
+   and quadratic classification rule is used as shown in fig-18.
 
->   From fig-18, we can see that 97.14% observation of species (“0”) correctly
->   classified as species (“0“) and 91.43%observation of species (“1”) correctly
->   classified as species (“1”). And error count is very low.
+   From fig-18, we can see that 97.14% observation of species (“0”) correctly
+   classified as species (“0“) and 91.43%observation of species (“1”) correctly
+   classified as species (“1”). And error count is very low.
 
 ![](/images/66e47f4376494561bd73c071e877272e.jpg)
 
->   Fig-18
+   Fig-18
 
->   Since here we have 7 variables to start from, the other way is to first
->   select variables from stepwise selection procedure. Fig-19 shows the summary
->   of the stepwise procedure:
+   Since here we have 7 variables to start from, the other way is to first
+   select variables from stepwise selection procedure. Fig-19 shows the summary
+   of the stepwise procedure:
 
 ![](/images/672f632d27e08175f6e0796f4660bce6.jpg)
 
 ![](/images/418e0649ab4e3abfa646579b8eae8fdf.jpg)
 
->   Fig-19
+   Fig-19
 
->   At significance level of 0.15, variables X2, X3, X5, X6 and X7 are selected.
->   So now the discriminant analysis will be applied on these 5 selected
->   variables.
+   At significance level of 0.15, variables X2, X3, X5, X6 and X7 are selected.
+   So now the discriminant analysis will be applied on these 5 selected
+   variables.
 
->   Fig-20 shows the initial information about data, now instead of 7 variables
->   before, now we have just 5 variables. The prior probability for both species
->   is 0.5.
+   Fig-20 shows the initial information about data, now instead of 7 variables
+   before, now we have just 5 variables. The prior probability for both species
+   is 0.5.
 
 ![](/images/f5859d76a53c7028300f6a9c4e2f92f6.jpg)
 
->   Fig-20
+   Fig-20
 
->   The test for equal variance for both species gave the result that variance
->   for both species is different (fig-21).
+   The test for equal variance for both species gave the result that variance
+   for both species is different (fig-21).
 
 ![](/images/beec554f942daf3bd3d421096bbd794b.jpg)
 
->   Fig-21
+   Fig-21
 
->   Hence the Quadratic classification rule has applied.
+   Hence the Quadratic classification rule has applied.
 
 ![](/images/67b8fd0b511a778f9430f2b36f83d40c.jpg)
 
->   Fig-22
+   Fig-22
 
->   Fig-22 shows that 94.29% observation of species(“0”) are correctly
->   classified as species(“0”) as compared to 97.14%(fig-18) and only 88.57%
->   observation of species(“1”) are correctly classified as species(“1”) as
->   compared to 91.43%(fig-18). And rate of error has also increased compared to
->   the previous analysis when we had 7 variables. This may be because we have
->   reduced the number of variables and so lost a little bit of information from
->   data.
+   Fig-22 shows that 94.29% observation of species(“0”) are correctly
+   classified as species(“0”) as compared to 97.14%(fig-18) and only 88.57%
+   observation of species(“1”) are correctly classified as species(“1”) as
+   compared to 91.43%(fig-18). And rate of error has also increased compared to
+   the previous analysis when we had 7 variables. This may be because we have
+   reduced the number of variables and so lost a little bit of information from
+   data.
 
->   f) Perform a Multivariate analysis of variance on species w/r to variables
->   and factors.
+   f) Perform a Multivariate analysis of variance on species w/r to variables
+   and factors.
 
->   First the MANOVA analysis is on the actual variables of the data
+   First the MANOVA analysis is on the actual variables of the data
 
 ![](/images/2e1d3595bad529faafbb19ee2a3a5d7a.jpg)
 
->   Fig-22
+   Fig-22
 
->   The model we have used here:
+   The model we have used here:
 
->   $$\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
->   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ X}_{\text{lj}} = \mu +
->   \tau_{l} + e_{\text{lj}}$$ (1)
+   $$\text{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
+   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ X}_{\text{lj}} = \mu +
+   \tau_{l} + e_{\text{lj}}$$ (1)
 
->   where j=1, 2,..nl (number of observation under each species), l=1,2 for
->   species (1)
+   where j=1, 2,..nl (number of observation under each species), l=1,2 for
+   species (1)
 
->   The null hypothesis is that mean for two species is same. The sas output in
->   fig-22 gives so many statistics to test the null hypothesis. From the Wilk’s
->   lambda statistic we can see that p-value is too small, so we reject null
->   hypothesis and conclude that there is a significant difference in mean for
->   species (“0”) and (“1”). If we look at other species as well, the p-value is
->   small.
+   The null hypothesis is that mean for two species is same. The sas output in
+   fig-22 gives so many statistics to test the null hypothesis. From the Wilk’s
+   lambda statistic we can see that p-value is too small, so we reject null
+   hypothesis and conclude that there is a significant difference in mean for
+   species (“0”) and (“1”). If we look at other species as well, the p-value is
+   small.
 
->   *MANOVA for factor analysis*.
+   *MANOVA for factor analysis*.
 
->   From the factor analysis in problem-(b), we got two factors, so we can apply
->   MANOVA on factor variables using factor scores.
+   From the factor analysis in problem-(b), we got two factors, so we can apply
+   MANOVA on factor variables using factor scores.
 
->   Again we are using the same model (1) and same hypothesis as I have used
->   before but instead of seven variables now I have two variables (factors).
+   Again we are using the same model (1) and same hypothesis as I have used
+   before but instead of seven variables now I have two variables (factors).
 
 ![](/images/978717e00340f1f3fcfaae2ff1a53f4f.jpg)
 
->   Fig-23
+   Fig-23
 
->   Here from fig-23, we can see that p-value is very low\<0.0001 and hence we
->   reject null hypothesis of equal means for two species and conclude that the
->   mean for two species is different. The other statistics also giving the same
->   conclusion.
+   Here from fig-23, we can see that p-value is very low\<0.0001 and hence we
+   reject null hypothesis of equal means for two species and conclude that the
+   mean for two species is different. The other statistics also giving the same
+   conclusion.
 
->   Note: - 1.The one thing which is important here that the assumption of
->   constant variance is violated here as we have tested before in fig-17. The
->   one of the assumption of MANOVA is population (here two species) have equal
->   variance but here we have tested that species “0” and “1” have different
->   variance.
+   Note: - 1.The one thing which is important here that the assumption of
+   constant variance is violated here as we have tested before in fig-17. The
+   one of the assumption of MANOVA is population (here two species) have equal
+   variance but here we have tested that species “0” and “1” have different
+   variance.
 
->   2. Also I have assumed here that both species are multivariate normally
->   distributed.
+   2. Also I have assumed here that both species are multivariate normally
+   distributed.
 
->   3. And species (“0”) is independent from species (“1”).
+   3. And species (“0”) is independent from species (“1”).
 
->   *APPENDIX*
+   *APPENDIX*
 
->   *SAS CODE*
+   *SAS CODE*
+'''
+   \* Data ;
 
->   \* Data ;
+   \*X1 = wing length
 
->   \*X1 = wing length
+   X2 = wing width
 
->   X2 = wing width
+   X3 = third palp length
 
->   X3 = third palp length
+   X4 = third palp width
 
->   X4 = third palp width
+   X5 = fourth palp length
 
->   X5 = fourth palp length
+   X6 = length of antennal segment 12
 
->   X6 = length of antennal segment 12
+   X7 = length of antennal segment 13;
 
->   X7 = length of antennal segment 13;
+   DATA TABLE6_15;
 
->   DATA TABLE6_15;
+   INPUT X1 X2 X3 X4 X5 X6 X7 SPECIES \@\@;
 
->   INPUT X1 X2 X3 X4 X5 X6 X7 SPECIES \@\@;
+   CARDS;
 
->   CARDS;
+   85 41 31 13 25 9 8 0
 
->   85 41 31 13 25 9 8 0
+   87 38 32 14 22 13 13 0
 
->   87 38 32 14 22 13 13 0
+   94 44 36 15 27 8 9 0
 
->   94 44 36 15 27 8 9 0
+   92 43 32 17 28 9 9 0
 
->   92 43 32 17 28 9 9 0
+   96 43 35 14 26 10 10 0
 
->   96 43 35 14 26 10 10 0
+   91 44 36 12 24 9 9 0
 
->   91 44 36 12 24 9 9 0
+   90 42 36 16 26 9 9 0
 
->   90 42 36 16 26 9 9 0
+   .
 
->   .
+   .
 
->   .
+   .
 
->   .
+   99 45 42 15 32 10 9 1
 
->   99 45 42 15 32 10 9 1
+   102 45 44 15 30 10 10 1
 
->   102 45 44 15 30 10 10 1
+   97 45 37 15 32 10 9 1
 
->   97 45 37 15 32 10 9 1
+   96 39 40 14 20 9 9 1
 
->   96 39 40 14 20 9 9 1
+   89 39 33 12 20 9 8 1
 
->   89 39 33 12 20 9 8 1
+   99 42 38 14 33 9 9 1
 
->   99 42 38 14 33 9 9 1
+   110 45 41 17 36 9 10 1
 
->   110 45 41 17 36 9 10 1
+   99 44 35 16 31 10 10 1
 
->   99 44 35 16 31 10 10 1
+   103 43 38 14 32 10 10 1
 
->   103 43 38 14 32 10 10 1
+   95 46 36 15 31 8 8 1
 
->   95 46 36 15 31 8 8 1
+   101 47 38 14 37 11 11 1
 
->   101 47 38 14 37 11 11 1
+   103 47 40 15 32 11 11 1
 
->   103 47 40 15 32 11 11 1
+   99 43 37 14 23 11 10 1
 
->   99 43 37 14 23 11 10 1
+   105 50 40 16 33 12 11 1
 
->   105 50 40 16 33 12 11 1
+   99 47 39 14 34 7 7 1
 
->   99 47 39 14 34 7 7 1
+   ;
 
->   ;
+   proc print data=TABLE6_15;
 
->   proc print data=TABLE6_15;
+   \* Principal Component Analysis;
 
->   \* Principal Component Analysis;
+   proc corr data=TABLE6_15;
 
->   proc corr data=TABLE6_15;
+   var X1 X2 X3 X4 X5 X6 X7;
 
->   var X1 X2 X3 X4 X5 X6 X7;
+   proc princomp data=TABLE6_15 cov out=aa outstat=aa_stat;
 
->   proc princomp data=TABLE6_15 cov out=aa outstat=aa_stat;
+   var X1 X2 X3 X4 X5 X6 X7;
 
->   var X1 X2 X3 X4 X5 X6 X7;
+   run;
 
->   run;
+   proc score data=TABLE6_15 score=aa_stat out=FScore;
 
->   proc score data=TABLE6_15 score=aa_stat out=FScore;
+   var X1 X2 X3 X4 X5 X6 X7;run;
 
->   var X1 X2 X3 X4 X5 X6 X7;run;
+   GOPTIONS RESET=ALL;
 
->   GOPTIONS RESET=ALL;
+   proc corr data=aa; \*the principal components are uncorrelated/independent;
 
->   proc corr data=aa; \*the principal components are uncorrelated/independent;
+   var prin1-prin7;
 
->   var prin1-prin7;
+   run;
 
->   run;
+   proc gplot;
 
->   proc gplot;
+   title 'PLOT OF THE PRINCIPAL COMPONENTS';
 
->   title 'PLOT OF THE PRINCIPAL COMPONENTS';
+   plot prin2\*prin1=species;
 
->   plot prin2\*prin1=species;
+   symbol1 v=0 c=red;
 
->   symbol1 v=0 c=red;
+   symbol2 v=1 c=black;
 
->   symbol2 v=1 c=black;
+   run;
 
->   run;
+   \*quit;
 
->   \*quit;
+   \* Factor Analysis;
 
->   \* Factor Analysis;
+   proc factor res rotate=v reorder plot scree;
 
->   proc factor res rotate=v reorder plot scree;
+   var X1 X2 X3 X4 X5 X6 X7 ;
 
->   var X1 X2 X3 X4 X5 X6 X7 ;
+   run;
 
->   run;
+   proc factor res rotate=v reorder n=2 out=ff out_stat=ff_1 plot scree;
 
->   proc factor res rotate=v reorder n=2 out=ff out_stat=ff_1 plot scree;
+   var X1 X2 X3 X4 X5 X6 X7;
 
->   var X1 X2 X3 X4 X5 X6 X7;
+   run;
 
->   run;
+   proc score data=TABLE6_15 score=ff_1 out=FScore;
 
->   proc score data=TABLE6_15 score=ff_1 out=FScore;
+   var X1 X2 X3 X4 X5 X6 X7; run;
 
->   var X1 X2 X3 X4 X5 X6 X7; run;
+   proc print data=FScore;run;
 
->   proc print data=FScore;run;
+   proc corr data=ff;
 
->   proc corr data=ff;
+   run;
 
->   run;
+   proc gplot;
 
->   proc gplot;
+   title 'PLOT OF FACTORS FOR BITING FLY DATA';
 
->   title 'PLOT OF FACTORS FOR BITING FLY DATA';
+   plot factor1\*factor2=species;
 
->   plot factor1\*factor2=species;
+   symbol1 v=0 c=red;
 
->   symbol1 v=0 c=red;
+   symbol2 v=1 c=black;
 
->   symbol2 v=1 c=black;
+   run;
 
->   run;
+   quit;
 
->   quit;
+   \* MANOVA with factor analysis;
 
->   \* MANOVA with factor analysis;
+   PROC GLM DATA=FScore;
 
->   PROC GLM DATA=FScore;
+   CLASS SPECIES;
 
->   CLASS SPECIES;
+   MODEL factor1 factor2=SPECIES/ss3;
 
->   MODEL factor1 factor2=SPECIES/ss3;
+   MANOVA H=SPECIES;
 
->   MANOVA H=SPECIES;
+   RUN;
 
->   RUN;
+   \* summary of factors;
 
->   \* summary of factors;
+   PROC UNIVARIATE data=FScore;
 
->   PROC UNIVARIATE data=FScore;
+   VAR factor1 factor2;
 
->   VAR factor1 factor2;
+   BY species;
 
->   BY species;
+   OUTPUT min=min mean=mean q1=q1 median=med q3=q3 max = max out=stats;
 
->   OUTPUT min=min mean=mean q1=q1 median=med q3=q3 max = max out=stats;
+   RUN;
 
->   RUN;
+   \* Discriminant Analysis;
 
->   \* Discriminant Analysis;
+   \*with pool test;
 
->   \*with pool test;
+   proc discrim data= TABLE6_15 pool=test wcov short ;
 
->   proc discrim data= TABLE6_15 pool=test wcov short ;
+   \*this will test the equality of the variance covariance matrices;
 
->   \*this will test the equality of the variance covariance matrices;
+   class species;
 
->   class species;
+   var X1 X2 X3 X4 X5 X6 X7 ;
 
->   var X1 X2 X3 X4 X5 X6 X7 ;
+   run;
 
->   run;
+   \*with pool test=yes;
 
->   \*with pool test=yes;
+   proc discrim data= TABLE6_15 pool=yes out=out outd=outd;
 
->   proc discrim data= TABLE6_15 pool=yes out=out outd=outd;
+   \*we will pool in this example if though it is inappropriate;
 
->   \*we will pool in this example if though it is inappropriate;
+   class species;
 
->   class species;
+   var X1 X2 X3 X4 X5 X6 X7 ;
 
->   var X1 X2 X3 X4 X5 X6 X7 ;
+   run;
 
->   run;
+   proc print data=out;
 
->   proc print data=out;
+   proc print data=outd;
 
->   proc print data=outd;
+   \*stepwise discriminant analysis;
 
->   \*stepwise discriminant analysis;
+   proc stepdisc data=TABLE6_15;
 
->   proc stepdisc data=TABLE6_15;
+   class species;
 
->   class species;
+   var X1 X2 X3 X4 X5 X6 X7 ;
 
->   var X1 X2 X3 X4 X5 X6 X7 ;
+   run;
 
->   run;
+   \*proc discrim data= TABLE6_15 pool=test wcov short;
 
->   \*proc discrim data= TABLE6_15 pool=test wcov short;
+   \*this will test the equality of the variance covariance matrices;
 
->   \*this will test the equality of the variance covariance matrices;
+   \*class species;
 
->   \*class species;
+   \*var X2 X3 X5 X6 X7 ;
 
->   \*var X2 X3 X5 X6 X7 ;
+   run;
 
->   run;
+   \* MANOVA;
 
->   \* MANOVA;
+   PROC GLM DATA=TABLE6_15;
 
->   PROC GLM DATA=TABLE6_15;
+   CLASS SPECIES;
 
->   CLASS SPECIES;
+   MODEL X1 X2 X3 X4 X5 X6 X7=SPECIES/ss3;
 
->   MODEL X1 X2 X3 X4 X5 X6 X7=SPECIES/ss3;
+   MANOVA H=SPECIES;
 
->   MANOVA H=SPECIES;
-
->   RUN;
+   RUN;
