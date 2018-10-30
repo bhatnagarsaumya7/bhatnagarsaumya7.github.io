@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Statistical analyis for catching of Atlantic cod
+title: Statistical Analyis for catching of Atlantic cod
 ---
 
 OBJECTIVE- The question I&#39;m trying to answer here is: How the mean–depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
