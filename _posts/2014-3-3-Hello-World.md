@@ -3,9 +3,6 @@ layout: post
 title: Atlantic Cod
 ---
 
-**16FS STAT 7020-001 Final Exam**
-
-**Final Report**
 
 **Saumya Bhatnagar**
 
