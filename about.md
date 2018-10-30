@@ -25,6 +25,6 @@ As part of my coursework and projects that I've worked on, I'm adept at Statisti
 * Time Series Analysis, 
 
 ### Contact me
-[Click here for my resume](/images/Saumya Bhatnagar Resume.pdf)
+[My Resume](/images/Saumya Bhatnagar Resume.pdf)
 
 [bhatnagarsaumya7@gmail.com](mailto:bhatnagarsaumya7@gmail.com)
