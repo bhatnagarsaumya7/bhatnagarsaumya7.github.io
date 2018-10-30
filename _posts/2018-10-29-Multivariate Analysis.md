@@ -3,10 +3,9 @@ layout: post
 title: MULTIVARIATE ANALYSIS
 ---
 
-**SAUMYA BHATNAGAR**
-
-OBJECTIVE- The data I’m studying here is biting fly data. There are 70 observations on two
+Objective- The data I’m studying here is biting fly data. There are 70 observations on two
 species of biting flies with 7 variables as:
+
 
 X1 = wing length
 
