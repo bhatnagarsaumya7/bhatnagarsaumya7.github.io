@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Atlantic Cod
+title: How the mean –depth, square of mean-depth, standard deviation and latitude effects the catching of Atlantic cod in a tow.
 ---
 
 
