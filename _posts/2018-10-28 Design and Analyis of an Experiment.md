@@ -4,7 +4,7 @@ title: Design and Analysis of an Experiment.
 ---
 
 OBJECTIVE- In the paper helicopter experiment, our interest is to explore how the wing
-length and wing width would affect the flight time of a helicopter
+length and wing width would affect the flight time of a helicopter.
 
 Report on Paper Helicopter Experiment
 =====================================
