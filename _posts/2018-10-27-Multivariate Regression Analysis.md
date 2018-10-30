@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Studied effect of different quantitative variables on the sound pressure levels (SPLs) of NACA 0012 airfoils studied using a multivariate regression approach
+title: Multivariate regression: Effect of different quantitative variables on the sound pressure levels (SPLs) of NACA 0012 airfoils 
 ---
 
 
