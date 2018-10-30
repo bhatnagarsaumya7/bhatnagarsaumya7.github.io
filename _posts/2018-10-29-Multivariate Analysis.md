@@ -29,11 +29,11 @@ X7 = length of antennal segment 13
     random variables in data. Before principal component analysis, let’s look at
     the summary of our variables in fig-1:
 
-    ![](media/b33ee975958a903292f01fe5324e581a.jpg)
+    ![](/images/b33ee975958a903292f01fe5324e581a.jpg)
 
     Fig-1
 
-    ![](media/e09849c1ed33746a71380ccbb7901829.jpg)
+    ![](/images/e09849c1ed33746a71380ccbb7901829.jpg)
 
     Fig-2
 
@@ -44,11 +44,11 @@ X7 = length of antennal segment 13
     For this principal component analysis, principal component are calculated
     from the variance-covariance matrix of variables in fig-3.
 
-    ![](media/490ec8a07e8dd0c69d04895b04e7eea4.jpg)
+    ![](/images/490ec8a07e8dd0c69d04895b04e7eea4.jpg)
 
     Fig-3
 
-    ![](media/5cdd9394a0365b5e2d6050ea60645742.jpg)
+    ![](/images/5cdd9394a0365b5e2d6050ea60645742.jpg)
 
     Fig-4
 
@@ -58,7 +58,7 @@ X7 = length of antennal segment 13
     population variance explained by the principal component. We can see that
     two components accounts for 77 percent of the total variance.
 
-    ![](media/bfb6afc5c2e19e758fa4b117dcbdae1e.jpg)
+    ![](/images/bfb6afc5c2e19e758fa4b117dcbdae1e.jpg)
 
     Fig-5
 
@@ -79,7 +79,7 @@ X7 = length of antennal segment 13
     coefficients, this seems that principal component is representing palp
     length over other features of biting fly.
 
-    ![](media/dc362d772b2dce8c124a8c64e278efd6.jpg)
+    ![](/images/dc362d772b2dce8c124a8c64e278efd6.jpg)
 
     Fig-6
 
@@ -95,7 +95,7 @@ X7 = length of antennal segment 13
     component. The correlation matrix shows that principal components have 0
     covariance and they are independent.
 
-    ![](media/e23b0ce7c15ca51748d42be9ee0f761b.jpg)
+    ![](/images/e23b0ce7c15ca51748d42be9ee0f761b.jpg)
 
     Fig-7
 
@@ -105,7 +105,7 @@ X7 = length of antennal segment 13
     values for all the variables than species (“0”). From the plot, we can see
     that for both species principal component2 value is on the higher side.
 
-![](media/b4aff00d42be63b9a76ee41cd81c576f.jpg)
+![](/images/b4aff00d42be63b9a76ee41cd81c576f.jpg)
 
 Fig-8
 
@@ -122,17 +122,17 @@ Fig-8
     procedure in sas also choose two factors. This can be clearer from the scree
     plot in fig-10. There is a sharp bend at 2.
 
-    ![](media/d4b2ce00b7c4f6793bc58a4f21a12552.jpg)
+    ![](/images/d4b2ce00b7c4f6793bc58a4f21a12552.jpg)
 
     Fig-9
 
-    ![](media/3ec24dfb8eb5c7d7aeb92f1dd26b8eb1.jpg)
+    ![](/images/3ec24dfb8eb5c7d7aeb92f1dd26b8eb1.jpg)
 
     Fig-10
 
-    ![](media/d74499c418a34a06f94f34ea44481cda.jpg)
+    ![](/images/d74499c418a34a06f94f34ea44481cda.jpg)
 
-    ![](media/7ac6cd7fd6ce6eb780bb424d786fa3b0.jpg)
+    ![](/images/7ac6cd7fd6ce6eb780bb424d786fa3b0.jpg)
 
     Fig-11
 
@@ -145,16 +145,16 @@ Fig-8
     factor-2. Also variables X1, X2, X3, X4 and X5 are on the negative side of
     fator-2 and X6 and X7 are on the positive side of factor-2
 
-    ![](media/b7b7ad8db36c0bfe195109857d96c2a2.jpg)
+    ![](/images/b7b7ad8db36c0bfe195109857d96c2a2.jpg)
 
     Fig-12
 
     Since separation is not clear within variables for factor-1 and factor-2,
     hence I applied rotation.
 
-    ![](media/010b9f3d2d6c650b1f6e5aa80c576390.jpg)
+    ![](/images/010b9f3d2d6c650b1f6e5aa80c576390.jpg)
 
-    ![](media/3634922fbd678d3a1c624b78ac02833d.jpg)
+    ![](/images/3634922fbd678d3a1c624b78ac02833d.jpg)
 
     Fig-13
 
@@ -173,7 +173,7 @@ Fig-8
     palp dimensions of the biting fly and factor-2 which has X6 and X7 variables
     reflect the properties of antenna of biting fly.
 
-    ![](media/ce42305956be39aad1f4db86aa7e18c4.jpg)
+    ![](/images/ce42305956be39aad1f4db86aa7e18c4.jpg)
 
     Fig-14
 
@@ -187,7 +187,7 @@ Fig-8
     (“0”). The length of antennal segments for both species are comparable.
     There is no clear classification of some observations for two species.
 
-![](media/24fda17f3e4d52032a251dd78f881414.jpg)
+![](/images/24fda17f3e4d52032a251dd78f881414.jpg)
 
 >   Fig-15
 
@@ -202,15 +202,15 @@ Fig-8
 >   dimensions and factor-2 (X6, X7) with length of antennal segments. The
 >   summary of factors for different species is given as
 
-![](media/a70bbb5782cd6fe470c0eba8b8bf16b2.jpg)
+![](/images/a70bbb5782cd6fe470c0eba8b8bf16b2.jpg)
 
-![](media/ac519ea0d40e00b780b5c69fa2ba52ae.jpg)
+![](/images/ac519ea0d40e00b780b5c69fa2ba52ae.jpg)
 
 Factor-1 species (“0”) Factor-2 species (“0”)
 
-![](media/9ffa1edeac9b6462074af7ff0dab9e03.jpg)
+![](/images/9ffa1edeac9b6462074af7ff0dab9e03.jpg)
 
-![](media/00a58b6a710e176c68671408e8224550.jpg)
+![](/images/00a58b6a710e176c68671408e8224550.jpg)
 
 >   Factor-1 species (“1”) Factor-2 species (“1”)
 
@@ -230,11 +230,11 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 >   class variables. The prior probabilities are assume to 0.5 each for both
 >   species.
 
-![](media/c800ef3ca71ff26e5106c7df8529c151.jpg)
+![](/images/c800ef3ca71ff26e5106c7df8529c151.jpg)
 
 >   Fig- 16.
 
-![](media/eb88bdcbb97b5ab9b526005b6032c0f1.jpg)
+![](/images/eb88bdcbb97b5ab9b526005b6032c0f1.jpg)
 
 >   Fig-17
 
@@ -247,7 +247,7 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 >   classified as species (“0“) and 91.43%observation of species (“1”) correctly
 >   classified as species (“1”). And error count is very low.
 
-![](media/66e47f4376494561bd73c071e877272e.jpg)
+![](/images/66e47f4376494561bd73c071e877272e.jpg)
 
 >   Fig-18
 
@@ -255,9 +255,9 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 >   select variables from stepwise selection procedure. Fig-19 shows the summary
 >   of the stepwise procedure:
 
-![](media/672f632d27e08175f6e0796f4660bce6.jpg)
+![](/images/672f632d27e08175f6e0796f4660bce6.jpg)
 
-![](media/418e0649ab4e3abfa646579b8eae8fdf.jpg)
+![](/images/418e0649ab4e3abfa646579b8eae8fdf.jpg)
 
 >   Fig-19
 
@@ -269,20 +269,20 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 >   before, now we have just 5 variables. The prior probability for both species
 >   is 0.5.
 
-![](media/f5859d76a53c7028300f6a9c4e2f92f6.jpg)
+![](/images/f5859d76a53c7028300f6a9c4e2f92f6.jpg)
 
 >   Fig-20
 
 >   The test for equal variance for both species gave the result that variance
 >   for both species is different (fig-21).
 
-![](media/beec554f942daf3bd3d421096bbd794b.jpg)
+![](/images/beec554f942daf3bd3d421096bbd794b.jpg)
 
 >   Fig-21
 
 >   Hence the Quadratic classification rule has applied.
 
-![](media/67b8fd0b511a778f9430f2b36f83d40c.jpg)
+![](/images/67b8fd0b511a778f9430f2b36f83d40c.jpg)
 
 >   Fig-22
 
@@ -299,7 +299,7 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 
 >   First the MANOVA analysis is on the actual variables of the data
 
-![](media/2e1d3595bad529faafbb19ee2a3a5d7a.jpg)
+![](/images/2e1d3595bad529faafbb19ee2a3a5d7a.jpg)
 
 >   Fig-22
 
@@ -327,7 +327,7 @@ Factor-1 species (“0”) Factor-2 species (“0”)
 >   Again we are using the same model (1) and same hypothesis as I have used
 >   before but instead of seven variables now I have two variables (factors).
 
-![](media/978717e00340f1f3fcfaae2ff1a53f4f.jpg)
+![](/images/978717e00340f1f3fcfaae2ff1a53f4f.jpg)
 
 >   Fig-23
 
