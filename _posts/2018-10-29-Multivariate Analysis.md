@@ -1,11 +1,11 @@
 ---
 layout: post
-title: MULTIVARIATE ANALYSIS
-excerpt: The data I’m studying here is biting fly data
+title: Multivariate Analysis.
 ---
 
-Objective- The data I’m studying here is biting fly data. There are 70 observations on two
-species of biting flies with 7 variables as:
+OBJECTIVE- The data I&#39;m studying here is biting fly data. There are 70 observations on two
+species of biting flies with 7 variables as
+
 
 
 X1 = wing length
