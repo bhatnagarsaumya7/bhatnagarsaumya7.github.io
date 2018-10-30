@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design and Analysis of an Experiment.
+title: Design and Analysis of an Experiment
 ---
 
 OBJECTIVE- The question I&#39;m trying to answer here is: In the paper helicopter experiment, our interest is to explore how the wing
